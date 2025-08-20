@@ -8,20 +8,30 @@ header {
     color: #aec3e3;
     background-color: #003366;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f0f0f0;
+    background-image: url(images/fishcreek/fishcreeklogo.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1em;
+    text-align: center;
 }
 
 nav {
     text-align: center;
     font-weight: 700;
+    background-color: #5280c5;
+    padding: 0.5em;
 }
 
-h1 {
-    line-height: 200%;
-    text-indent: 1em;
+main {
+    padding: 1em 2em;
+    background-color: #f0f0f0;
 }
 
 h2 {
     font-size: 1.2em;
+    text-shadow: 1px 1px 1px #777;
 }
 
 dt {
@@ -34,10 +44,22 @@ dt {
 footer {
     font-size: .7em;
     font-style: italic;
+    text-align: center;
+    margin-top: 2em;
+    padding-bottom: .5em;
+    background-color: #aec3e3;
+}
+
+footer nav {
+    background-color: #f0f0f0;
+    font-size: 110%;
+    padding-bottom: .5em;
 }
 
 #wrapper {
     width: 90%;
+    min-width: 800px;
+    max-width: 1280px;
     background-color: #f0f0f0;
     margin: 0 auto;
 }
